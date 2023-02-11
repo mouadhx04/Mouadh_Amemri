@@ -67,13 +67,19 @@
     flex-direction: row-reverse
 }
 
+.image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 10px;
+}
 /* Card */
 .card{
 	transition: all 0.5s ease;
 }
 .card img{
 	height: 100px;
-	width: 100px;
+	width: 150px;
 	margin: auto;
 }
 .card:hover{
